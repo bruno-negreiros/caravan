@@ -45,15 +45,15 @@
           <form class="bg-light rounded p-4 box-shadow" action="">
             <div class="form-group">
               <label for="clienteNome">Nome</label>
-              <input type="text" class="form-control" id="clienteNome">
+              <input type="text" data-tipo="nome" id="nome" name="nome" class="form-control" required>
             </div>
             <div class="form-group">
               <label for="clienteEmail">Email</label>
-              <input type="email" class="form-control" id="clienteEmail">
+              <input type="email" data-tipo="email" id="email" nome="email" class="form-control">
             </div>
             <div class="form-group">
               <label for="clienteMensagem">Mensagem</label>
-              <textarea id="clienteMensagem" class="form-control" rows="4"></textarea>
+              <textarea id="clienteMensagem" class="form-control" rows="4" required></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
           </form>
