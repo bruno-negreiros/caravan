@@ -7,7 +7,7 @@ function logar(email, password) {
         alert('Usuário ou senha inválida!');
       }
     })
-    .catch(err => console.log(err));
+    .catch(err => alert('Backend indisponível'));
 }
 
 function validarLogin(email, password) {
